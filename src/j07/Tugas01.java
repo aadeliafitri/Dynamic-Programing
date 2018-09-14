@@ -18,6 +18,13 @@ public class Tugas01 {
         System.out.print("Masukkan Jumlah uang: ");
         uang = scan.nextInt();
         
-        }
+        for(i = 0; i < 5; i++)
+        {
+            jumlah = uang/nominal[i];
+            uang = uang - (nominal[i]*jumlah);
+            
+            System.out.println("Lembar" + nominal[i] + "=" + jumlah);
+        }  
     }
+}
 
