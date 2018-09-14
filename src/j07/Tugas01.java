@@ -14,6 +14,9 @@ public class Tugas01 {
         System.out.println("Identitas: " + Identitas);
         System.out.println("");
        
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Masukkan Jumlah uang: ");
+        uang = scan.nextInt();
         
         }
     }
