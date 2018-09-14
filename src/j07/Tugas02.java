@@ -15,7 +15,10 @@ public class Tugas02 {
         System.out.println("Identitas: " + Identitas);
         System.out.println("");
         
-       
+        Scanner baca = new Scanner(System.in);
+        System.out.print("Masukkan max berat barang: ");
+        int berat = baca.nextInt();
+        int jumlah = 0, i, bayar = 0;
     }
 }
        
