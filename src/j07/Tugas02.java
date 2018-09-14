@@ -19,6 +19,16 @@ public class Tugas02 {
         System.out.print("Masukkan max berat barang: ");
         int berat = baca.nextInt();
         int jumlah = 0, i, bayar = 0;
+        
+         for( i = 0; i < 5; i++)
+        {
+            jumlah = berat/kilogram[i];
+            berat = berat - (kilogram[i]*jumlah);
+            bayar += jumlah * nominal[i];
+            char barang = jenis[i];
+            System.out.println("Jenis Barang " + barang + " Berat " + kilogram[i] + " kg " + " : " + jumlah);    
+        }
+        System.out.println("Bayaran yang didapat : " + bayar);
     }
 }
        
